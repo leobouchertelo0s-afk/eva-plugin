@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "eva-files": {
+      "command": "/opt/homebrew/bin/npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/leoboucher/Projects/eva-plugin/resources"
+      ]
+    }
+  }
+}
