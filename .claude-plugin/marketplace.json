@@ -1,0 +1,14 @@
+{
+  "name": "eva-plugin",
+  "description": "Marketplace for EVA, a customer support copilot packaged as a Claude plugin.",
+  "owner": {
+    "name": "Léo Boucher"
+  },
+  "plugins": [
+    {
+      "name": "eva",
+      "source": "./",
+      "description": "AI copilot for iGaming customer support agents: 4 Skills and a read-only MCP server on fictional data."
+    }
+  ]
+}

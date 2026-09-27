@@ -1,0 +1,21 @@
+{
+  "name": "eva",
+  "version": "0.1.0",
+  "description": "EVA, an AI copilot for iGaming customer support agents: four Skills (live chat reply, message polishing, ticket-to-email, iGaming knowledge) and a read-only MCP server on a fictional procedures and tickets base.",
+  "author": {
+    "name": "Léo Boucher",
+    "email": "leo.boucher57@gmail.com"
+  },
+  "homepage": "https://github.com/leobouchertelo0s-afk/eva-plugin",
+  "skills": ["./.claude/skills/"],
+  "mcpServers": {
+    "eva-files": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${CLAUDE_PLUGIN_ROOT}/resources"
+      ]
+    }
+  }
+}
